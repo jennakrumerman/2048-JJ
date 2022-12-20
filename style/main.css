@@ -3,14 +3,13 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: rgb(127, 199, 255);
   color: #4d2523;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
 body {
   padding: 80px 0;
-  background-image: url(img/bg.jpg);
   background-position: top center;
   background-repeat: no-repeat; }
 
@@ -65,7 +64,7 @@ h1.title {
   overflow: hidden;
   position: relative;
   display: inline-block;
-  background: #f67098;
+  background: #0b8781;
   padding: 15px 0px;
   font-size: 19px;
   text-transform: capitalize;
@@ -100,7 +99,7 @@ h1.title {
     font-size: 19px;
     line-height: 19px;
     font-weight: bold;
-    color: rgba(77, 37, 35, 0.9);
+    color: rgba(215, 148, 239, 0.9);
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -115,14 +114,14 @@ h1.title {
   float: right; }
 
 .score-container:after {
-  content: "Cupcake"; }
+  content: "Memory"; }
 .score-points:after {
-  content: "Kcal"; }
+  content: "jenna bucks"; }
 
 .best-container:after {
-  content: "Cupcake Max"; }
+  content: "Memory Max"; }
 .best-points:after {
-	content: "Kcal Max"; }
+	content: "jenna bucks max"; }
 
 p {
   margin-top: 0;
@@ -178,7 +177,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #f67098;
+  background: #0b8781;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -212,7 +211,7 @@ hr {
       margin-top: 59px; }
     .game-container .game-message a {
       display: inline-block;
-      background: #f888a9;
+      background: #7cea99;
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
@@ -530,7 +529,7 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #f888a9;
+  background: #3c8691;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -598,7 +597,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #f67098;
+    background: #0b8781;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -632,7 +631,7 @@ hr {
         margin-top: 59px; }
       .game-container .game-message a {
         display: inline-block;
-        background: #f888a9;
+        background: #88f8ab;
         border-radius: 3px;
         padding: 0 20px;
         text-decoration: none;
@@ -673,7 +672,7 @@ hr {
     margin-right: 10px;
     float: left;
     border-radius: 3px;
-    background: rgba(255, 255, 255, 0.35); }
+    background: rgba(53, 184, 84, 0.35); }
     .grid-cell:last-child {
       margin-right: 0; }
 
@@ -784,7 +783,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #f67098;
+  background: #0b8781;
   border-radius: 4px;
   width: 73px;
   height: 73px;

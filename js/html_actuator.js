@@ -176,7 +176,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("data-counturl", "http://0x0800.github.io/2048-CUPCAKES");
   tweet.textContent = "Tweet";
 
-  var text = Localize("tweet1") + Localize( this.score ).toUpperCase() + '", ' + this.points + " Kcal " + Localize("tweet2");
+  var text = Localize("tweet1") + Localize( this.score ).toUpperCase() + '", ' + this.points + " jenna bucks " + Localize("tweet2");
   tweet.setAttribute("data-text", text);
 
   return tweet;
